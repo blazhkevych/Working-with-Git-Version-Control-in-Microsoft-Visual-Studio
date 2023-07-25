@@ -30,3 +30,18 @@
    4) класс Main_Class, реализующий пользовательский интерфейс приложения, и 
    демонстрирующий работу с классом Academy_Group.
  */
+
+namespace task
+{
+    using Academy_GroupNamespace;
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Academy_Group ag = new Academy_Group();
+            ag.Load();
+            Main_Class main_Class = new Main_Class();
+            main_Class.MainMenu(ref ag);
+        }
+    }
+}
