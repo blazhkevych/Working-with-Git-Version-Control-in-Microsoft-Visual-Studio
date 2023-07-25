@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List of storage media", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{982A4AC0-6A32-4F97-BC96-4D66853EC640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{8C737A31-6871-4998-A744-F6CA844ED16F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C737A31-6871-4998-A744-F6CA844ED16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C737A31-6871-4998-A744-F6CA844ED16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C737A31-6871-4998-A744-F6CA844ED16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C737A31-6871-4998-A744-F6CA844ED16F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
