@@ -19,5 +19,37 @@
             _Average = average;
             _NumberOfGroup = numberOfGroup;
         }
+
+        // Свойство _Average.
+        public double Average
+        {
+            get => _Average;
+            set => _Average = value;
+        }
+
+        // Свойство NumberOfGroup.
+        public string NumberOfGroup
+        {
+            get => _NumberOfGroup;
+            set => _NumberOfGroup = value;
+        }
+
+        // Вывод информации на экран.
+        public new void Print()
+        {
+            base.Print();
+            Console.Write("{0,14}{1,14}", _Average, _NumberOfGroup);
+        }
+
+        // Деконструкторы позволяют выполнить декомпозицию объекта на отдельные части.
+        public void Deconstruct(out string name, out string surname, out int age, out string phone, out double average, out string numberOfGroup)
+        {
+            name = _Name;
+            surname = _Surname;
+            age = _Age;
+            phone = _Phone;
+            average = _Average;
+            numberOfGroup = _NumberOfGroup;
+        }
     }
 }
