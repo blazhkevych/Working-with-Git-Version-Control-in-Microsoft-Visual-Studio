@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List of storage media", "List of storage media\List of storage media.csproj", "{DCB3F907-7BD2-43DE-A170-D9A244A05F5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{982A4AC0-6A32-4F97-BC96-4D66853EC640}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DCB3F907-7BD2-43DE-A170-D9A244A05F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCB3F907-7BD2-43DE-A170-D9A244A05F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCB3F907-7BD2-43DE-A170-D9A244A05F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982A4AC0-6A32-4F97-BC96-4D66853EC640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
