@@ -31,6 +31,8 @@
    демонстрирующий работу с классом Academy_Group.
  */
 
+// Внесение изменения в проект разработчиком blazhkevych.v для фиксации в локальном репозитории.
+
 namespace task
 {
     using Academy_GroupNamespace;
